@@ -1,7 +1,6 @@
 import { mount, flushPromises } from "@vue/test-utils";
 import { describe, it, expect, vi } from "vitest";
 import MovieDetails from "./MovieDetails.vue";
-import { useRoute } from "vue-router";
 import { createTestingPinia } from "@pinia/testing";
 import { useMovieStore } from "../../../state/stores/useMovieStoreTransform";
 
