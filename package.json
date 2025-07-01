@@ -1,0 +1,39 @@
+{
+  "name": "movie-house",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "@vueuse/core": "^13.4.0",
+    "pinia": "^3.0.3",
+    "primeicons": "^7.0.0",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@pinia/testing": "^1.0.2",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/vue": "^8.1.0",
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^24.0.4",
+    "@vitejs/plugin-vue": "^5.2.4",
+    "@vitest/ui": "^3.2.4",
+    "@vue/test-utils": "^2.4.6",
+    "autoprefixer": "^10.4.21",
+    "jsdom": "^26.1.0",
+    "primevue": "^4.3.5",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.4",
+    "vue-test-utils": "^0.5.0",
+    "vue-tsc": "^2.2.10"
+  }
+}
